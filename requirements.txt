@@ -1,11 +1,9 @@
 openai
-langchain
+langchain==0.0.228
 streamlit
 python-dotenv
 PyPDF2
 
-
--e .
 
 # general way is to install all of these above packages
 # like conda install openai conda install langchain
