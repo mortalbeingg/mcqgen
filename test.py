@@ -1,3 +1,3 @@
-from src.mcqgenerator.logger import logging
+from src.mcqgenrator.logger import logging
 
 logging.info("hi i am starting execution")
