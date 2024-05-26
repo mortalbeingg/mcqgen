@@ -11,7 +11,7 @@ from src.mcqgenrator.logger import logging
 
 # loading json file
 with open("/Users/aws/Documents/projectmcq/response.json") as file:
-    RESPONSE_JSON = json.loads(file)
+    RESPONSE_JSON = json.load(file)
 
 # creating a title for the app
 st.title("MCQs Generatir application with langchain")
